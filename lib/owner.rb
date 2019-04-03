@@ -5,9 +5,9 @@ class Owner
 attr_accessor :name, :pets
 attr_reader :species
 
-# def self.all
-#   @@all
-# end
+def self.all
+  @@all
+end
 
 def initialize(species)
   @species = species
