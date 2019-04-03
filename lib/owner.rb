@@ -67,6 +67,10 @@ def sell_pets
   end
 end
 
+def list_pets
+  @pets.collect { |pet_list| owner.list_pets == pet_list}
+  
+end
 
 
 end
