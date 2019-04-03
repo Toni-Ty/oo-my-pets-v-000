@@ -69,7 +69,7 @@ end
 
 def list_pets
   @pets.collect { |pet_list| self.list_pets == pet_list}
-
+end
 end
 
 
