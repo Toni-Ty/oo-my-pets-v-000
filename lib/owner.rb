@@ -46,7 +46,7 @@ def walk_dogs
   end
 end
 
-def 
+def
 end
 
 
