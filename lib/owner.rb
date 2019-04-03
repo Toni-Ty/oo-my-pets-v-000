@@ -41,7 +41,12 @@ def buy_dog(dog_name)
 end
 
 def walk_dogs
-  @mood == happy
+  pets[:dogs].each do |dog|
+    dog.mood = "happy"
+  end
+end
+
+def 
 end
 
 
