@@ -66,7 +66,7 @@ def sell_pets
     pet.clear
   end
 end
-    
+
   pets.mood = "nervous"
 
 
